@@ -2,7 +2,7 @@ SUITS = [ "C", "D", "H", "S" ]
 RANKS = [ "2", "3", "4", "5", "6", "7", "8", "9", "T", "J", "Q", "K", "A" ]
 CARDS = [ f"{rank}{suit}" for suit in SUITS for rank in RANKS ]
 
-STRAINS = SUITS + [ "NT" ]
+STRAINS = SUITS + [ "N" ]
 CALLS = [ "P", "X", "XX" ] + [ f"{level + 1}{strain}" for level in range(7) for strain in STRAINS ]
 
 POSITIONS = [ "N", "E", "S", "W" ]
