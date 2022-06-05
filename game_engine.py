@@ -30,7 +30,7 @@ def get_vulnerability_from_board_number(board_number):
     return board_number_to_vulnerability[board_number % 16]
 
 def get_dealer_from_board_number(board_number):
-    return POSITIONS[board_number % 4]
+    return POSITIONS[(board_number - 1) % 4]
 
 def get_hands_from_identifier(identifier):
     hands = [[] for p in POSITIONS]
