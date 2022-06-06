@@ -1,5 +1,6 @@
 bidder-data/
 bidder-data.tar.xz
+*-model.pkl
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
